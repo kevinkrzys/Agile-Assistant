@@ -182,5 +182,5 @@ root_agent = Agent(
         requirements_agent, 
         user_story_agent, 
         test_case_agent
-        ],
+        ]
 )
