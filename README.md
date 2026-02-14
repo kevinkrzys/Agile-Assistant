@@ -106,13 +106,3 @@ Read the implementation and detailed instructions in
   trade-offs.
 - The `root_agent` intentionally does not implement analysis, story writing,
   or test creation itself — it orchestrates and enforces workflow discipline.
-
-If you want, I can also add a short example walkthrough (example input →
-expected outputs) or add a tiny CLI to run the pipeline locally.
-# Agile Assistant
-
-An agile assistant designed to assist Product Managers in analyzing requirement, clarifying ambiguity, calling out assumptions, identifying conflicts, generating, user stories from the gathered requirements, and generating test cases.
-
-The agent always seeks the Product Managers approval to ensure their review.
-
-The agent never assumes anything with the business requirements and always asks for clarity when needed before proceeding to the next step.
