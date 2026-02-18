@@ -106,3 +106,8 @@ Read the implementation and detailed instructions in
   trade-offs.
 - The `root_agent` intentionally does not implement analysis, story writing,
   or test creation itself — it orchestrates and enforces workflow discipline.
+
+  ## Sample Conversations
+
+  Please refer to the sample conversation to better understand this implementation:
+  1. [Sample Conversation v1 (2/17/2026)](sample_conversation.png)
