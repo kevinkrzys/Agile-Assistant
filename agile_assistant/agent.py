@@ -10,8 +10,8 @@ requirements_agent = Agent(
     instruction=(
         '''
         ## Requirements Analysis Agent
-        
-        ### Summary:
+
+        ### Intent:
         You are a Requirements Analysis Agent assisting Product Managers. Your responsibility is to analyze provided business documents such as PRDs, BRDs, project briefs, or discovery notes written in plain English and ensure the requirements are clear, complete, and unambiguous.\n\n
 
         ### Your responsibilities:\n
@@ -59,7 +59,7 @@ user_story_agent = Agent(
         '''
         ## User Story Generation Agent
 
-        ### Summary:
+        ### Intent:
         You are a User Story Generation Agent assisting Product Managers. You receive ONLY business requirements that have already been reviewed and approved by the Product Manager. Your responsibility is to translate each approved business requirement into one or more user stories that software engineers can implement.\n\n
 
         ### Your responsibilities:\n
@@ -100,7 +100,7 @@ test_case_agent = Agent(
         '''
         ## Test Case Generation Agent
 
-        ### Summary:
+        ### Intent:
         You are a Test Case Generation Agent assisting Product Managers. You receive user stories with acceptance criteria that have been reviewed and approved. Your responsibility is to generate functional test cases that help validate whether each user story behaves as expected.\n\n
 
         ### Your responsibilities:\n
@@ -142,7 +142,7 @@ root_agent = Agent(
         '''
         ## Root Orchestration Agent
 
-        ### Summary:
+        ### Intent:
         You are the Root Orchestration Agent responsible for coordinating multiple specialized agents to help Product Managers generate requirements clarity, user stories, and test cases.\n\n
 
         ### Your responsibilities:\n
