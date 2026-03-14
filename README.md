@@ -1,7 +1,7 @@
 # Agile Assistant — Agent Orchestration
 
 This repository contains a small orchestration of specialized agents defined in
-[agile_assistant/agent.py](agile_assistant/agent.py#L1-L400). The file declares
+[agile_assistant/agent.py](agile_assistant/agent.py#L1-L190). The file declares
 four main agents and an orchestrator that enforces a strict, approval-gated
 workflow for converting business requirements into user stories and test
 cases.
@@ -19,7 +19,7 @@ cases.
   specialized agents and enforces Product Manager (PM) approval gates.
 
 Read the implementation and detailed instructions in
-[agile_assistant/agent.py](agile_assistant/agent.py#L1-L400).
+[agile_assistant/agent.py](agile_assistant/agent.py#L1-L190).
 
 ## Agent Roles and Responsibilities
 
@@ -107,7 +107,12 @@ Read the implementation and detailed instructions in
 - The `root_agent` intentionally does not implement analysis, story writing,
   or test creation itself — it orchestrates and enforces workflow discipline.
 
-  ## Sample Conversations
+## Sample Conversations
 
-  Please refer to the sample conversation to better understand this implementation:
-  1. [Sample Conversation v1 (2/17/2026)](sample_conversation.png)
+Please refer to the sample conversation to better understand this implementation:
+1. [Sample Conversation v1 (2/17/2026)](sample_conversation.png)
+
+## Possible enhancements:
+
+1. Integration with Jira to create user stories and test cases
+2. Integration with Confluence to create and maintain documentation

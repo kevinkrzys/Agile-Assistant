@@ -2,3 +2,5 @@
 pat.txt
 .DS_Store
 prompt_editor.md
+agile_assistant/.adk/*
+agile_assistant/__pycache__/*
